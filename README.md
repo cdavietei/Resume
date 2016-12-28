@@ -1,2 +1,20 @@
-# Resume
-This repository provides sample code of programs I have written either as a part of Hofstra University Courses, Research Projects or Personal projects
+# Christopher Davie's Portfolio
+This repository serves as a portfolio of code I have written in the following settings:
+
+* Hofstra University Computer Science Courses
+* Research at Hofstra University
+* Personal Projects
+* Interview Prep and other coding exercises
+
+###Repository Structure
+
+This repository has the following directory structure and each sub directory has it's own README on the purpose of the code within as well as instructions on how to run the code
+
+* Beacon
+* CourseWork
+   * DataMining
+   * Data Science
+   * SemanticWeb
+   * FundamentalsIII
+* CrackingTheCodingInterview
+* ResearchWork

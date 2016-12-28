@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName='WebDataCommonsParser'
+
+repositories {
+	mavenCentral()
+}
+
+//Runs the WebDataCommonsParser
+task(runWebData, dependsOn: jar, type: JavaExec ) {
+    main = 'WebDataCommonsParser'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+//Runs the SchemaOrgParser
+task(runSchema, dependsOn: jar, type: JavaExec) {
+	main = 'SchemaOrgParser'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+dependencies {
+	// https://mvnrepository.com/artifact/org.jsoup/jsoup
+	compile group: 'org.jsoup', name: 'jsoup', version: '1.10.1'
+
+	// https://mvnrepository.com/artifact/org.apache.jena/jena-core
+	compile group: 'org.apache.jena', name: 'jena-core', version: '3.1.1'
+}

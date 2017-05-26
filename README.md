@@ -6,15 +6,17 @@ This repository serves as a portfolio of code I have written in the following se
 * Personal Projects
 * Interview Prep and other coding exercises
 
-###Repository Structure
+### Repository Structure
 
 This repository has the following directory structure and each sub directory has it's own README on the purpose of the code within as well as instructions on how to run the code
 
-* Beacon (WIP)
 * CourseWork
-   * DataMining  (WIP)
-   * Data Science  (WIP)
-   * SemanticWeb
-   * FundamentalsIII
-* CrackingTheCodingInterview  (WIP)
+ * CloudComputing (WIP)
+ * DataMining  (WIP)
+ * Data Science  (WIP)
+ * SemanticWeb
+ * FundamentalsIII
+ * ParallelComputing
+* CrackingTheCodingInterview (WIP)
+* DataStructures
 * ResearchWork

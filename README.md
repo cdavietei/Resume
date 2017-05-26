@@ -11,12 +11,12 @@ This repository serves as a portfolio of code I have written in the following se
 This repository has the following directory structure and each sub directory has it's own README on the purpose of the code within as well as instructions on how to run the code
 
 * CourseWork
- * CloudComputing (WIP)
- * DataMining  (WIP)
- * Data Science  (WIP)
- * SemanticWeb
- * FundamentalsIII
- * ParallelComputing
+   * CloudComputing (WIP)
+   * DataMining  (WIP)
+   * Data Science  (WIP)
+   * SemanticWeb
+   * FundamentalsIII
+   * ParallelComputing
 * CrackingTheCodingInterview (WIP)
 * DataStructures
 * ResearchWork
